@@ -133,7 +133,7 @@ form {
 }
 
 .input-div > div {
-    position: relative;
+  position: relative;
 	height: 45px;
 }
 
@@ -189,12 +189,16 @@ form {
 	background: none;
 	padding: 0.5rem 0.7rem;
 	font-size: 1.2rem;
-	color: #555;
+	color: white;
 	font-family: 'poppins', sans-serif;
 }
 
 .input-div.pass {
 	margin-bottom: 4px;
+}
+
+.input {
+  color: white;
 }
 
 .btnn {
