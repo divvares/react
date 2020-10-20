@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: radial-gradient(gray, whitesmoke);
+}
+
+.site_bg img {
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  padding: 10px 0 10px 0;
+  background: rgb(51, 51, 51);
+  border-top: 3px solid #f66;
+  border-bottom: 3px solid #f66;
+}
+
+.containers {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.header__logo {
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+}
+
+.header__logo a,
+.navbar a {
+  color: white;
+}
+
+.header__logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.navbar {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-around;
+}
+
+.authorizationLink {
+  height: 40px;
+}
+
+.search_form {
+  display: flex;
+  padding-top: 30px;
+}
+
+.search_form input {
+  width: 100%;
+  height: 50px;
+}
+
+.carousel_anime {
+  display: flex;
+  padding-top: 30px;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.crs_tag {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 15px 0 15px 0;
+  background: rgb(51, 51, 51);
+  border-bottom: 3px solid #f66;
+  color: white;
+}
+
+.crs_tag p {
+  margin-bottom: 0;
+}
+
+.card {
+  border: none;
+}
+
+.cards-body {
+  padding-top: 8px;
+  padding-left: 4px;
+  background: rgb(51, 51, 51);
+  color: white;
+  height: 80px;
+}
+
+.new {
+  display: flex;
+  padding-top: 250px;
+  padding-bottom: 400px;
+}
+
+.new__tag {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgb(51, 51, 51);
+  border-bottom: 3px solid #f66;
+  color: white;
+}
+
+.tag_detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f66;
+  width: 200px;
+}
+
+.tag_detail p {
+  margin-bottom: 0;
+}
+
+.anime1 {
+  display: flex;
+}
+
+.card {
+  margin-right: 15px;
+}
+
+.card-mr {
+  margin-right: 0;
+}
+
+.footer {
+  background: rgb(51, 51, 51);
+  border-top: 7px solid #f66;
+}
+
+.no-flex {
+  display: block;
+}
+
+.col-6 h5 {
+  color: yellow;
+}
+
+.col-6 a {
+  color: white;
+}

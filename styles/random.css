@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: radial-gradient(gray, whitesmoke);
+}
+
+.site_bg img {
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  padding: 10px 0 10px 0;
+  background: rgb(51, 51, 51);
+  border-top: 3px solid #f66;
+  border-bottom: 3px solid #f66;
+}
+
+.containers {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.header__logo {
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+}
+
+.header__logo a,
+.navbar a {
+  color: white;
+}
+
+.header__logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.navbar {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-around;
+}
+
+.authorizationLink {
+  height: 40px;
+}
+
+.search_form {
+  display: flex;
+  padding-top: 30px;
+}
+
+.search_form input {
+  width: 100%;
+  height: 50px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.details__tag {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.details__poster {
+  display: flex;
+  flex-basis: 30%;
+}
+
+.details__poster img {
+  width: 300px;
+}
+
+.details_trailer {
+  display: flex;
+  flex-basis: 70%;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.details__description {
+  display: flex;
+  padding-top: 80px;
+}
+
+.field {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.footer {
+  background: rgb(51, 51, 51);
+  border-top: 7px solid #f66;
+  margin-top: 50px;
+}
+
+.no-flex {
+  display: block;
+}
+
+.col-6 h5 {
+  color: yellow;
+}
+
+.col-6 a {
+  color: white;
+}
