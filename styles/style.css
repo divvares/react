@@ -65,6 +65,14 @@ body {
   height: 50px;
 }
 
+.search-icon {
+  position: absolute;
+  top: 283px;
+  right: 100px;
+  color: black;
+  font-size: 21px;
+}
+
 .carousel_anime {
   display: flex;
   padding-top: 30px;
