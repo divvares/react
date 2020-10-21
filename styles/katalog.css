@@ -65,6 +65,22 @@ body {
   height: 50px;
 }
 
+.search-div {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.search-icon {
+  color: black;
+  font-size: 21px;
+}
+
 .f-wrap {
   flex-wrap: wrap;
 }

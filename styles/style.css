@@ -65,10 +65,18 @@ body {
   height: 50px;
 }
 
+.search-div {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
 .search-icon {
-  position: absolute;
-  top: 283px;
-  right: 100px;
   color: black;
   font-size: 21px;
 }
@@ -96,8 +104,9 @@ body {
   margin-bottom: 0;
 }
 
-.card {
+.cards {
   border: none;
+  width: 185px;
 }
 
 .cards-body {
