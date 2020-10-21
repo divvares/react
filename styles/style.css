@@ -99,6 +99,40 @@ body {
   height: 80px;
 }
 
+.aboutUs {
+  margin-top: 100px;
+
+}
+
+.card-bg {
+  background: rgb(51, 51, 51);
+  /* border-top: 3px solid #f66;
+  border-bottom: 3px solid #f66; */
+  border: 3px solid #f66;
+}
+
+.card-header button {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .new {
   display: flex;
   padding-top: 250px;
